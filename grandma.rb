@@ -16,7 +16,7 @@ def speak_to_grandma(phrase)
   phrase_array = phrase.split('')
     if(phrase_array.any?{|char| char != char.upcase})
       return "HUH?! SPEAK UP, SONNY!"
-    else if(phrase == "I LOVE YOU GRANDMA")
+    else if(phrase == "I LOVE YOU GRANDMA!")
       return "I LOVE YOU TOO PUMPKIN!"
     else
       return "NO, NOT SINCE 1938!"
